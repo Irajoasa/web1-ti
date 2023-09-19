@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning HTML Forms</title>
+</head>
+<body>
+    
+    <h1>Registration Form</h1>
+    <form action="proces.php" method="POST">
+            <!-- Input type text-->
+            <label for="fname">First name: ></First><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name: </label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <br>
+            <!--Input type pasword-->
+            <p>Choose your gender: </p>
+            <input type="radio" id="male" name="gender" value="male">
+            
+            <!--Inpput type radio-->
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <!--Input type checkbox-->
+            <p>Choose your gender: </p>
+            <input type="checkbox" id="hobby1" name="hobby1" value="Badminton">
+            <label for="hobby1">Badminton</Badminton><br>
+            <input type="checkbox" id="hobby2" name="hobby2" value="Futsal">
+            <label for="hobby2">Futsal</label><br>
+            <input type="checkbox" id="hobby3" name="hobby3" value="Football">
+            <label for="hobby3">Football</label><br>
+            <input type="checkbox" id="hobby4" name="hobby4" value="Basketball">
+            <label for="hobby4">Basketball</label>
+
+            <br><br>
+            <!--Input type submit-->
+        <input type="submit">
+    </form>
+</body>
+</html>
